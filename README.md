@@ -14,6 +14,12 @@ The next day Matt Wilson had a [thread](https://twitter.com/_msw_/status/1575942
 ## Refrences and Tools
 * [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/network/)
 * [Guide to Chrome Headless](https://nira.com/chrome-headless/)
+
+```bash
+# This seems to be the most easy way to interface with chrome headless on the command line.
+chrome --headless --incognito --disable-gpu --repl
+```
+
 * [tshark](https://www.wireshark.org/docs/man-pages/tshark.html) - the command line version of Wireshark to analyize network packets.
 * Documentstion for [HTTP/1.1](https://www.rfc-editor.org/rfc/rfc7231) - [HTTP/2](https://http2.github.io) - [HTTP/3](https://quicwg.org).
 
